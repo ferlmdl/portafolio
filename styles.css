@@ -98,3 +98,44 @@ header {
 #contact a:hover {
     color: #7209b7;
 }
+.carrusel-container {
+    overflow: hidden;
+    width: 100%;
+    position: relative;
+}
+
+.carrusel {
+    display: flex;
+    transition: transform 0.5s ease;
+}
+
+.proyecto {
+    min-width: 100%;
+    padding: 20px;
+    box-sizing: border-box;
+    background-color: #282846;
+    border-radius: 8px;
+    text-align: center;
+}
+
+.carrusel-button {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: #7209b7;
+    color: white;
+    border: none;
+    font-size: 24px;
+    padding: 10px;
+    cursor: pointer;
+    z-index: 1;
+    border-radius: 50%;
+}
+
+#prev {
+    left: 10px;
+}
+
+#next {
+    right: 10px;
+}
