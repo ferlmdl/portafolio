@@ -1,58 +1,51 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-    <script src="script.js"></script>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portafolio de Fernanda Valencia</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
+    <!-- Menú de Navegación -->
+    <nav>
+        <ul>
+            <li><a href="#about">Sobre Mí</a></li>
+            <li><a href="#projects">Proyectos</a></li>
+            <li><a href="#contact">Contacto</a></li>
+        </ul>
+    </nav>
+
+    <!-- Sección de Perfil -->
     <header>
-        <h1>¡Hola! Soy Fernanda Valencia</h1>
+        <img src="perfil.png" alt="Foto de Perfil" class="perfil-imagen">
+        <h1>Fernanda Valencia</h1>
         <p>Desarrolladora de Software | Ingeniera en Informática</p>
+        <p>Apasionada por el desarrollo web y la innovación tecnológica.</p>
     </header>
 
-    <section id="acerca">
-        <h2>Acerca de Mí</h2>
-        <p>Estudiante de ingeniería en informática y telecomunicaciones en la Universidad Diego Portales. Tengo habilidades en desarrollo web y manejo de diversos lenguajes de programación. Me adapto rápidamente a distintos entornos de trabajo y tengo experiencia en bases de datos y creación de páginas web. Dispuesta a aprender y aportar en mi equipo.</p>
-    </section>
-
-    <section id="habilidades">
-        <h2>Habilidades</h2>
-        <ul>
-            <li>Lenguajes: Python, JavaScript, Java, C++, SQL</li>
-            <li>Frameworks y Librerías: Node, Express, Angular, Bootstrap, HBS</li>
-            <li>Autenticación y Seguridad: JWT</li>
-            <li>Bases de Datos: PostgreSQL, MongoDB</li>
-            <li>Herramientas de Office: Excel, PowerBi</li>
-            <li>Idiomas: Inglés (Intermedio)</li>
-        </ul>
-    </section>
-
-    <section id="proyectos">
-        <h2>Proyectos</h2>
-
+    <!-- Sección de Proyectos -->
+    <section id="projects">
+        <h2>Proyectos Destacados</h2>
         <div class="proyecto">
-            <h3>Sitio Web de Compra y Venta</h3>
-            <p>Página para compra y venta de productos en línea, con roles de usuario y administrador. Permite registrarse, iniciar sesión y eliminar perfil. Conectada a MongoDB y asegurada con JWT. Alojada en AWS EC2.</p>
-            <a href="#" id="proyecto1">Ver Proyecto</a>
+            <h3>Proyecto 1: Página Web de Compras</h3>
+            <p>Una plataforma de compras en línea con autenticación y sistema de roles.</p>
+            <a href="https://github.com/ferlmdl/Desarrollo_web" target="_blank">Ver Proyecto</a>
         </div>
-
         <div class="proyecto">
-            <h3>Sitio Web de Cuidado Animal</h3>
-            <p>Página para ingresar información sobre mascotas, con registro de medicinas, médicos y gestión de cuenta. Conectada a PostgreSQL, permite crear y eliminar perfiles, agregar mascotas, medicamentos y veterinarios.</p>
-            <a href="#">Ver Proyecto</a>
+            <h3>Proyecto 2: Cuidado de Mascotas</h3>
+            <p>Página para registrar información médica y cuidados de mascotas.</p>
+            <a href="https://github.com/ferlmdl/BDD" target="_blank">Ver Proyecto</a>
         </div>
     </section>
 
-    <section id="contacto">
+    <!-- Sección de Contacto -->
+    <section id="contact">
         <h2>Contacto</h2>
-        <p>Ubicación: San Joaquín, Santiago</p>
-        <p>Teléfono: +56 983245549</p>
         <p>Email: <a href="mailto:fernandavalencia115@gmail.com">fernandavalencia115@gmail.com</a></p>
-        <p><a href="https://github.com/ferlmdl">GitHub</a></p>
+        <p><a href="https://github.com/ferlmdl" target="_blank">GitHub</a></p>
     </section>
 
+    <script src="script.js"></script>
 </body>
 </html>
